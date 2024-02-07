@@ -1,0 +1,94 @@
+#banner-bg {
+  display: flex;
+  background-color: #f3dcff;
+  width: 1440px;
+  height: 763px;
+  padding: 110px 6px 51px 163px;
+}
+
+#banner-bg .name {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+#banner-bg .name h2 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 75px;
+}
+
+#banner-bg .banner {
+  width: 50%;
+}
+
+#banner-bg .banner img {
+  width: 602px;
+  height: 602px;
+}
+
+#we-do-what {
+  background-color: white;
+  display: flex;
+  padding: 50px 95px;
+}
+
+#we-do-what .thumbnail img {
+  height: 622px;
+  width: 438px;
+  margin-right: 86px;
+}
+
+#we-do-what .essay-about {
+  text-align: center;
+  padding-top: 82px;
+}
+
+#we-do-what .essay-about h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 30px;
+}
+
+#we-do-what .essay-about p.summary {
+  width: 632px;
+  margin: 0 auto;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+#we-do-what .essay-about p.highlight {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#future {
+  background-color: white;
+  padding: 116px 137px 200px;
+}
+
+#future .future-content {
+  display: flex;
+}
+
+#future .future-content .content-item {
+  display: flex;
+}
+
+#future .content-item img {
+  width: 100px;
+  height: 100px;
+}
+
+#future .details {
+  padding: 22px 39px;
+}
+
+#future .details h2 {
+  margin-bottom: 15px;
+}
+
+#future .details p {
+  text-align: justify;
+}

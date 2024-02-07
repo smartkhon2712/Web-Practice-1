@@ -1,0 +1,103 @@
+main {
+  background-color: white;
+  padding-top: 125px;
+}
+
+#banner-services {
+  background-image: url(../images/cleaning.png);
+  width: 1260px;
+  height: 398px;
+  margin: 0 auto;
+  padding-top: 121px;
+  margin-bottom: 100px;
+}
+
+#banner-services h2 {
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#specialist {
+  padding-bottom: 265px;
+}
+
+#specialist h2 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  margin-bottom: 100px;
+}
+
+#specialist-container {
+  max-width: 1162px;
+  margin: 0 auto;
+}
+
+#specialist-container .specialist-details {
+  display: flex;
+  margin-bottom: 186px;
+}
+
+#specialist-container .specialist-details:last-child {
+  margin-bottom: 0;
+}
+
+#specialist-container .specialist-details img {
+  margin-right: 100px;
+}
+
+#specialist-container .specialist-common {
+  width: 513px;
+}
+
+#specialist-container .specialist-common h3 {
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 23px;
+}
+
+#specialist-container .specialist-common p {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  margin-bottom: 44px;
+}
+
+#specialist-container .specialist-common ul {
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 68px;
+}
+
+#specialist-container .specialist-common ul li {
+  width: 50%;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+#specialist-container .specialist-common .book-now {
+  display: flex;
+  align-items: center;
+}
+
+#specialist-container .specialist-common .book-now button {
+  background-color: #430064;
+  color: white;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  border-radius: 25px;
+  padding: 15px 48px;
+  margin-right: 100px;
+}
+
+#specialist-container .specialist-common .book-now label {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+}
