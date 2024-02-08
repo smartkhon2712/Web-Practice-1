@@ -30,7 +30,7 @@
         <div id="login">Log In / Register</div>
       </header>
       <main id="main-contact">
-        <form id="contact-form">
+        <form id="contact-form" onsubmit="return false;">
           <h3>Please fill the details</h3>
           <div id="name-form">
             <label for="name">Name</label
@@ -38,19 +38,30 @@
               type="text"
               id="name"
               placeholder="Please write your name"
+              required
             />
+            <div id="name-error" class="error-message"></div>
           </div>
           <div id="phone-email-form">
             <div id="phone-form">
-              <label>Phone No</label
+              <label for="phone">Phone No</label
               ><input
                 type="number"
+                id="phone"
                 placeholder="Please write your phone number"
+                required
               />
+              <div id="phone-error" class="error-message"></div>
             </div>
             <div id="email-form">
-              <label>Email</label
-              ><input type="email" placeholder="Please write your email" />
+              <label for="email">Email</label
+              ><input
+                type="email"
+                id="email"
+                placeholder="Please write your email"
+                required
+              />
+              <div id="email-error" class="error-message"></div>
             </div>
           </div>
           <div id="address-form">
@@ -59,6 +70,7 @@
               id="address"
               placeholder="Please write your address"
             ></textarea>
+            <div id="address-error" class="error-message"></div>
           </div>
           <div id="date-form">
             <label for="date">Date</label><input type="date" id="date" />
@@ -69,8 +81,10 @@
               id="message"
               placeholder="please write your comment"
             ></textarea>
+            <div id="message-error" class="error-message"></div>
           </div>
-          <button type="submit">Submit</button>
+          <div id="message-successful"></div>
+          <button type="submit" onclick="handleSubmit()">Submit</button>
         </form>
       </main>
       <footer>
@@ -84,5 +98,6 @@
         <p>&copy; 2022 MELAKA SANITIZE SDN BHD</p>
       </footer>
     </div>
+    <script src="./js/contact.js"></script>
   </body>
 </html>
